@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* EOP Forms */
+
+
+#subDetailDiv table, #subDetailDiv table tr, #subDetailDiv table tr td{
+	margin: 0;
+	padding: 0;
+}
+
+#subDetailDiv table tr td {
+	padding: 0px 10px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+#footer p.DOEcr {
+  font-size: .7em;
+  color: #666;
+}
+
+table.editOne tr.added table, table.editTwo tr.added table, table.editThree tr.added table {
+	background-color: #eee;
+	position:relative;
+}
+
+table.editOne tr.added table tbody, table.editTwo tr.added table tbody, table.editThree tr.added table tbody {
+	background-color: #eee;
+	width: 100%;
+}
+
+table.editOne tr.added table tbody td.txtnorm, table.editTwo tr.added table tbody td.txtnorm, table.editThree tr.added table tbody td.txtnorm {
+	padding: 0 50px 0 0;
+	margin: 0;
+	background-color: #eee;
+}
+
+table.editOne select, table.editTwo select, table.editThree select {
+	height: 23px;
+/*	background-color: rgba(147, 160, 54, 0.15);
+	border-color: rgba(147, 160, 54, 1);*/
+}
+
+/*------------------------------------------------------------
+RESULTS DISPLAY PAGE
+------------------------------------------------------------*/
+table.results {
+	width: 100%;
+	border-collapse: collapse;
+/*	border: 1px solid #cccccc;
+*/}
+
+table.results tr:nth-child(even) {
+    background-color:#D9EAF4;
+}
+
+table.results tr:nth-child(odd) {
+	background: #f3f3f3;
+}
+
+table.results td { 
+	border: 1px solid #FFFFFF;
+	vertical-align: text-top;
+	padding: 0 10px;
+	line-height: 25px;
+}
+
+
+table.results th {
+	height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background-color: #0172b8;
+	border-bottom: 3px solid #93a036;
+	color:#FFFFFF;
+	text-align: center;
+	width: 75%;
+	vertical-align: middle;
+	border: 1px solid #FFFFFF;
+}
+
+table.threats-hazards th{
+	width: auto;
+}
+
+table.results tr.even {
+	background-color: #000;
+}
+
+
+/*-----------final result page-------*/
+table.resultsFinal {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+}
+
+/*table.resultsFinal tr:nth-child(even) {
+    background-color: #eee;
+}*/
+
+
+table.resultsFinal th {
+	height: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background-color: #0172b8;
+	border-bottom: 3px solid #93a036;
+	color:#FFFFFF;
+	text-align: left;
+	width: 50%;
+	padding: 10px;
+	vertical-align: text-top;
+}
+
+table.resultsFinal tr.planEven td { 
+	border-right: 1px solid #cccccc;
+	vertical-align: text-top;
+	padding: 0 10px;
+	line-height: 35px;
+	background-color: #F3F3F3;
+}
+
+table.resultsFinal tr.planOdd td {
+	border: 1px solid #cccccc; 
+	vertical-align: text-top;
+	padding: 0 10px;
+	line-height: 35px;
+	/*background-color: #D9EAF4;*/
+	background-color: #FFFFFF;
+}
+
+#form1Div table , #form2Div table, #form3Div table, #form4Div table, #form5Div table, #form6Div table, #form7Div table, #form8Div table, #form9Div table, #form10Div table{
+	padding: 5px 0px 30px 0px;
+	margin: auto 0;
+}
+
+/*-----------final result filedl-------*/
+table.filedl {
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+}
+
+/*table.resultsFinal tr:nth-child(even) {
+    background-color: #eee;
+}*/
+
+table.filedl th, table.filedl td { 
+	border: 1px solid #cccccc;
+	vertical-align: text-top;
+	padding: 0 10px;
+	line-height: 35px;
+}
+
+table.filedl th {
+	height: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background-color: #0172b8;
+	border-bottom: 3px solid #93a036;
+	color:#FFFFFF;
+	text-align: left;
+	width: 50%;
+}
+
+/*------------------------------------------------------------
+EDIT DISPLAY PAGE
+------------------------------------------------------------*/
+
+table.editOne, table.editTwo, table.editThree {
+	width: 100%;
+	border-collapse: collapse;
+/*	background-color: #eee;*/
+	margin: 10px 0;
+	padding-bottom: 10px;
+	vertical-align: text-top;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-bottom: 2px solid #dddddd;
+}
+
+table.editOne, table.editTwo, table.editThree{
+	background-color: #eee;
+}
+
+table.editOne textarea, table.editTwo textarea, table.editThree textarea{
+	margin-top: 8px;
+/*	border-color: rgba(147, 160, 54, 1);*/
+	background-color: #fff;
+}
+
+table.editTwo {
+	margin: 10px 0;
+}
+
+table.editOne tr, table.editTwo tr, table.editThree tr {
+	vertical-align: text-top;
+}
+
+/*-----------text fields-------*/
+table.editOne tr td, table.editTwo tr td, table.editThree tr td {
+	vertical-align: middle;
+	border: none;
+	/*float: left;*/
+	/*width: 75%;*/
+	margin: 2px;
+	text-align: left;
+}
+
+table.editOne tr.add table tbody{
+	background-color: #FF2B2E;
+}
+
+
+table.editOne td.txtb, table.editTwo td.txtb, table.editThree td.txtb {
+	vertical-align: middle;
+	font-weight: 800;
+	font-size: 1.05em;
+	color: #000;
+	/*width: 15%;
+	float: left;*/
+}
+
+table.editOne td.txtnorm, table.editTwo td.txtnorm, table.editThree td.txtnorm {
+	vertical-align: middle;
+	width: 15%;	
+	/*float: left;*/
+}
+
+table.editOne tr#addMoreG1ObjFn td, table.editTwo tr#addMoreG2ObjFn td, table.editThree tr#addMoreG3ObjFn td {
+	/*background-color: #DDDDDD;*/
+}
+/*-----------Save/Update-------*/
+table.editUpdate {
+	width: 100%;
+	margin-top:-10px;
+	background-color: #eee;
+	padding: 10px 0;
+}
+
+table.editUpdate tr td {
+	border: none;
+	background-color: #eee;
+	padding: 20px 10px;
+}
+
+/*-----------AddMore-------*/
+table.AddMore {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #ffffff;
+	margin: 10px 0;
+	vertical-align: text-top;
+}
+
+table.AddMore tr {
+	vertical-align: text-top;
+}
+
+table.AddMore tr td{
+	vertical-align: text-top;
+	border: none;
+	float: right;
+	width: 75%;
+	margin: 5px;
+}
+
+table.AddMore td.txtnorm{
+	vertical-align: text-top;
+	width: 15%;
+	float: left;
+}
+/*-------------------------------------
+Form Header, Fieldset
+--------------------------------------*/
+
+
+fieldset, form {
+    border: none;
+	margin: 5px 0px;
+    background-color:transparent;
+}
+
+fieldset#updatethform  {
+    border: none;
+}
+
+fieldset.tm {
+	background-color: #D9EAF4;
+}
+
+/*------------------------------------------------------------
+Team Management Form/Table
+------------------------------------------------------------*/
+table.tmform {
+/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+*/	width: 100%;
+	background-color: #d9eaf4;
+	margin: 0 auto;
+	vertical-align: text-top;
+	float: left;
+	padding: 1%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+table.tmform tr {
+	height: 25px;
+}
+
+table.tmform tr td {
+	vertical-align: text-top;
+}
+
+table.tmform td.txtb {
+	width: 9%;
+	padding: 7px;
+	vertical-align: text-top;
+	font-weight: 800;
+	text-align:right;
+}
+
+table.sctable, table.sctable tr, table.sctable td {
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+/*------------------------
+Team List Result
+------------------------*/
+#subDetailDiv table.teamresult tr td {
+		padding: 8px;
+}
+
+table.teamresult{
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+
+
+table.teamresult th, table.teamresult td { /*--border for all cell sides --*/
+	border: 1px solid #ffffff;
+	vertical-align: text-top;
+	padding: 8px;
+}
+
+table.teamresult th {
+height: 35px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+background-color: #0172B8;
+color: #FFF;
+text-align: center;
+vertical-align: middle;
+}
+
+table.teamresult tr.even {
+	background-color: #eee;
+}
+
+table.teamresult tr:nth-child(odd) {
+	/*background: #D9EAF4;*/
+	background: #FFFFFF;
+}
+
+/*------------------------
+Team List Edit
+------------------------*/
+#subDetailDiv table.teamedit{
+		padding-top: 20px;
+}
+
+#subDetailDiv table.teamedit tr td{
+		padding: 5px 10px;
+}
+
+table.teamedit {
+/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+*/	width: 100%;
+	background-color: #eee;
+	margin: 0 auto;
+	vertical-align: text-top;
+	float: left;
+	padding: 1% 64% 1% 1%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+table.teamedit tr {
+	height: 25px;
+}
+
+table.teamedit tr td {
+	vertical-align: text-top;
+}
+
+table.teamedit td.txtb {
+	width: 100px;
+	vertical-align: text-top;
+	font-weight: 800;
+}
+
+/*table.sctable, table.sctable tr, table.sctable td {
+	margin: 0;
+	padding-bottom: 5px;
+}*/
+
+/*------------------------------------------------------------
+TH Management Form/Table
+------------------------------------------------------------*/
+table.thform, table.fnform {
+	font-family: Helvetica, Arial, sans-serif;
+	width: 100%;
+	background-color: #D9EAF4;
+	margin: 0 auto;
+	vertical-align: text-top;
+	float: left;
+	padding: 1%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+table.thform tr {
+	height: 25px;
+}
+
+table.thform tr td {
+	vertical-align: text-top;
+	border: none;
+}
+
+table.thform td.txtb {
+	width: 40%;
+	padding: 0 2%;
+	vertical-align: text-top;
+	font-weight: 800;
+}
+
+table.sctable, table.sctable tr, table.sctable td {
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+
+/*------------------------
+TH List Edit
+------------------------*/
+
+#subDetailDiv table.thedit {
+	width: 100%;
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	vertical-align: text-top;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+}
+
+table.thedit tr {
+	height: 25px;
+}
+
+table.thedit tr td {
+	vertical-align: text-top;
+	border: none;
+	line-height: 60px;
+}
+
+table.thedit td.txtb {
+	vertical-align: text-top;
+	font-weight: 800;
+}
+
+
+img.editIcon {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: 3px;
+}
+
+img.deleteIcon{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: 3px;
+}
+
+/*------------------------
+Threats and Hazards List Result 
+------------------------*/
+table.action, table.actionfunction {
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+
+table.action td, table.actionfunction td { 
+	vertical-align: text-top;
+	padding: 8px;
+}
+
+table.action tr, table.actionfunction tr {
+	border: none;
+	border: 1px solid #cccccc;
+}
+
+table.action th, table.actionfunction th{
+	height: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background-color: #0172b8;
+	border-bottom: 3px solid #93a036;
+	color:#FFFFFF;
+	text-align: center; 
+	padding: 8px;
+}
+
+/*table.goalresult tr.even {
+	background-color: #efefef;
+}*/
+
+/*--------------------------------------------------------------
+ 3-3 Goals and Objectives for Threats Hazards
+--------------------------------------------------------------*/
+
+#goalFirstDivToRefresh table.results {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#goalFirstDivToRefresh table.results tr:nth-child(4n){
+	background-color: #F3F3F3;
+}
+
+
+/*--------------------------------------------------------------
+3-3 Goals and Objectives for Threats Hazards, ADD Drop Down Form
+--------------------------------------------------------------*/
+
+#goalFirstDivToRefresh table.results tr:nth-child(odd) {
+	background: #F3F3F3; /*#EAEAEA;*/
+}
+
+#goalFirstDivToRefresh table.results tr td.txtnorm{
+    background-color: #eee;
+}
+
+table.editOne tr td, table.editTwo tr td, table.editThree tr td {
+	background-color: #eee;
+	padding: 10px 10px;
+}
+
+
+/*Added  by Paula */
+
+table.resultsFinal th:first-child + td
+
+{
+    
+        /*background-color: #0172b8;
+    border-bottom: solid 3px #84B537;*/
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+#right-pane p{
+  margin:5px 0px;
+  line-height:20px;
+  width:100%;
+  float:left; 
+  display:block;
+}
+#left-pane{
+  width:30%;
+  display: block;
+  float: left;
+}
+#right-pane h3.title{
+  color:#888; 
+  background-color:#E0EDCC; 
+  padding:20px 10px; margin:0px; 
+  font-size:16px; 
+  position:relative; 
+  top:-11px; 
+  right:7px;
+  margin-bottom:10px;
+  width:100%;
+}
+.inputlabel{
+  color:#59B;
+  font-weight: bold;
+}
+.required{
+  color: #59B;
+}
+ul.task-list{
+   list-style-image: none;
+  list-style-type: none;
+  margin:20px 0px 20px 0px;
+  list-style:none;
+}
+ul.task-list li{
+  color: #adadad;
+  padding: 8px 16px 8px 20px;
+  list-style:none;
+  list-style-type:none;
+}
+ul.task-list li.active{
+  background: url("../img/task-item.png") no-repeat scroll 3px 50% transparent;
+  color:#000;
+}
+ul.task-list li.done{
+  background: url("../img/task-check.png") no-repeat scroll 0 50% transparent;
+  color:green;
+}
